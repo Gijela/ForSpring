@@ -11,7 +11,7 @@
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
+    "noEmit": true, // noEmit 表示只做类型检查，而不会输出产物文件
     "jsx": "react-jsx",
 
     /* Linting */
