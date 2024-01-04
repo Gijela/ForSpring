@@ -1,0 +1,1 @@
+{"version":3,"file":"util.js","sources":["../src/util.js"],"sourcesContent":["export const add = (a, b) => a + b;\nexport const multi = (a, b) => a * b;"],"names":[],"mappings":";;AAAY,MAAC,GAAG,GAAG,CAAC,CAAC,EAAE,CAAC,KAAK,CAAC,GAAG,EAAE;AACvB,MAAC,KAAK,GAAG,CAAC,CAAC,EAAE,CAAC,KAAK,CAAC,GAAG;;;;;"}

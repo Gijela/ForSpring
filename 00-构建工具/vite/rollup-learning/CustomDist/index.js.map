@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../src/index.js"],"sourcesContent":["import { add } from \"./util\";\nconsole.log(add(1, 2));"],"names":["add"],"mappings":";;;;AACA,OAAO,CAAC,GAAG,CAACA,QAAG,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC;;"}
