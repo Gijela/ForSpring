@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "rollup.rollup_api_build": "node src/JS-API打包/rollup.js"
   },
   "keywords": [],
   "author": "",
