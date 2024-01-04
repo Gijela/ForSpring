@@ -1,5 +1,5 @@
 'use strict';
 
-const add = (a, b) => a + b;
+var util = require('./util.js');
 
-console.log(add(1, 2));
+console.log(util.add(1, 2));

@@ -3,7 +3,8 @@
  * @type { import('rollup').RollupOptions }
  */
 const buildOptions = {
-  input: ["src/index.js"],
+  // 单个入口
+  // input: ["src/index.js"],
   // 单种格式产物
   // output: {
   //   // 产物输出目录
@@ -12,6 +13,12 @@ const buildOptions = {
   //   format: "esm",
   // },
 
+  // 多个入口
+  // input: ['src/index.js', 'src/util.js'],
+  input: {
+    index: 'src/index.js',
+    util: 'src/util.js',
+  },
   // 多种格式产物
   output: [
     {
