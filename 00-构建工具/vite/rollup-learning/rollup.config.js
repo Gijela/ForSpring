@@ -1,4 +1,6 @@
 import path from 'path'
+import resolve from "@rollup/plugin-node-resolve";
+import commonjs from "@rollup/plugin-commonjs";
 
 // 解决 ESM 中无法使用 __dirname 的问题
 import { fileURLToPath } from 'url'
@@ -67,6 +69,8 @@ const buildOptions = {
 
   // 不进行打包的依赖
   external: ['react', 'react-dom'],
+  // 添加插件
+  plugins: [resolve(), commonjs()],
 };
 
 export default buildOptions;
