@@ -1,6 +1,6 @@
 'use strict';
 
-var util = require('./util.js');
+const add = (a, b) => a + b;
 
 var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
 
@@ -17208,5 +17208,5 @@ lodash.exports;
 
 var lodashExports = lodash.exports;
 
-console.log(util.add(1, 2));
+console.log(add(1, 2));
 console.log(lodashExports.merge);
