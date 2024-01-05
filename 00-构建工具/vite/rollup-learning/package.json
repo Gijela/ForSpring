@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
     "rollup.rollup_api_build": "node src/JS-API打包/rollup.js",
-    "rollup.watch_api_build": "node src/JS-API打包/watch.js"
+    "rollup.watch_api_build": "node src/JS-API打包/watch.js",
+    "pluginLife": "node src/插件机制/rollupConfig.js"
   },
   "keywords": [],
   "author": "",
